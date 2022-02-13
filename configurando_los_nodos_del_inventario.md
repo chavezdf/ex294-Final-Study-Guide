@@ -1,4 +1,4 @@
-## Configurando todo nuestro inventario
+## Configurando todo nuestro inventario, para poder desplegar nuestros playbooks sin problema
 
 Si vamos a administrar un conjunto de equipos utilizando ansible, hay una serie de consideraciones necesarias para cumplir dicho objetivo:
 
