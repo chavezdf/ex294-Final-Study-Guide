@@ -21,3 +21,5 @@ Busqueda e Instalacion de Roles del Sistema:
 
     sudo dnf search roles
     sudo dnf install rhel-system-roles.noarch
+
+**En este punto tenemos el control-node con ansible instalado y con la configuracion por defecto**
