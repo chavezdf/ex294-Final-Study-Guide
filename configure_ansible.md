@@ -42,4 +42,5 @@ become_ask_pass= "Solicitar password para elevacion?"
 
 ````
 
+**Hasta este punto tenemos ansible correctamente instalado en el nodo de control y con una carpeta configurada para realizar los despliegues**
 
