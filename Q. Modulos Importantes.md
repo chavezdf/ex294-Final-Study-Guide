@@ -61,3 +61,7 @@ Cambio permantente del contexto de una ruta o fichero
 * **nmcli**: Manage networking
 * **uri**: Interact with web services
 
+**MODULOS DE SSH**
+
+* **openssh_keypair**: Para generar llaves ssh
+* **authorized_key**: Copiar llaves de un usuairo a los managed hosts
