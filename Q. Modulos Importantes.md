@@ -21,7 +21,6 @@ máquinas remotas al nodo de control y para almacenarlos en un árbol de archivo
 **lineinfile**:
 Asegúrese de que una línea particular esté en un archivo o reemplace una línea existente usando una expresión 
 regular de referencia inversa. Este módulo es principalmente útil cuando desea cambiar una sola línea en un archivo.
-- name: Add a line of text to a file
 
 **blockinfile**:
 Inserta, actualiza o elimina un bloque de texto multilínea rodeado por líneas de marcador personalizables.
