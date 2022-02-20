@@ -64,3 +64,14 @@ User number {{ loop.index }} - {{ myuser }}
 	{{ hostvars['host']['ansible_facts']['hostname'] }}
 {% endfor %}
 ````
+
+**USO DE CONDICIONALES**
+
+**IMPRIMIR EL VALOR DE UNA VARIABLE SI SE CUMPLE UNA CONDICION**
+
+````
+	{% if <VAR_BOOLEAN> %}
+	{{ <VARIABLE> }}
+	{% endif %}
+````
+
