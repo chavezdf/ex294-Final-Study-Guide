@@ -28,7 +28,14 @@ Ansible maneja de 2 maneras el control de ejecucion de las tareas. Estos valores
 Las tareas se ejecutan una a una en todos los hosts adminsitrados. Para manejar con eficiencia las ejecuciones, estas se hacen por lotes.
 				
 **Forks:** Cantidad maxima de conecciones simultaneas (paralelismo) para la ejecucion de una tarea. Por defecto esta configurado **5**.
-**Serial:** Ejecucion por lotes (Rolling) de una play completa. Esto se configura para permitir la gestion de Rolling Updates.
+>POR DEFECTO: SE DEFINE EN EL ARCHIVO DE CONFIGURACION DE ANSIBLE --> forks=5 
+NOTA: USAMOS ansible-config dump PARA VOLCAR LA INFORMACION DE CONFIG DE ANSIBLE.
+SI SE QUIERE LANZAR UNA GUIA O MODULO CON DISTINTO PARALELISMO
+USAMOS opcion -f/--forks  (OVERRIDE DE LA CONFIG DEL FICHERO)
+
+**Serial:** Ejecucion por lotes (Rolling) de una play completa. Esto se configura en la guia para permitir la gestion de Rolling Updates.
+>NOTA: SI FALLA EN UN LOTE, NO LANZA LOS DEMAS
+NOTA2: SE PUEDE USAR CON UN PORCENTAJE (% DE HOSTS)
         
 Gestion de Variables:
 ------------------------
