@@ -1,5 +1,5 @@
 Archivos de Configuracion de Ansible:
--------------------------------------
+------------------------------------
 
 *Orden de prioridad en el procesamiento de archivos ansible.cfg*
 
