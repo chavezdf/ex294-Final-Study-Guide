@@ -19,7 +19,7 @@ Cabecera mas comun:
       <parametroN>: <valor>        
 ````
 
-Paralismo:
+Paralelismo:
 ----------
 
 Ansible maneja de 2 maneras el control de ejecucion de las tareas. Estos valores estan configurados por defecto en ansible.cfg
