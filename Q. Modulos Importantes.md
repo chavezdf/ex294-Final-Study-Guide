@@ -2,7 +2,7 @@ Modulos para modificacion y copia de archivos a hosts administrador
 -------------------------------------------------------------------
 
 MODULOS COPIA --> blockinfile, copy, fetch, file, lineinfile, stat, synchronize
-MODULO SELINUX --> sefcontext
+
 
 **files:**
 Establece atributos tales como permisos, propiedad, contextos SELinux y marcas de tiempo de archivos regulares, 
@@ -35,5 +35,30 @@ El módulo synchronize no está destinado a proporcionar acceso a toda la potenc
 pero hace que las invocaciones más comunes sean más fáciles de implementar.
 Es posible que aún necesite utilizar el comando rsync con el modulo command según su caso de uso.
 
+**MODULO SELINUX --> sefcontext**
+
 **sefcontext (similar a semanage fcontext -a con restorecon)**:
 Cambio permantente del contexto de una ruta o fichero
+
+**MODULO de SOFTWARE**
+
+* **package**: Manage packages using autodetected package manager native to the operating system
+* **yum**: Manage packages using the YUM package manager
+* **apt**: Manage packages using the APT package manager
+* **dnf**: Manage packages using the DNF package manager
+* **gem**: Manage Ruby gems
+* **pip**: Manage Python packages from PyPI
+
+**MODULOS DE SISTEMA:**
+
+* **firewalld**: Manage arbitrary ports and services using firewalld
+* **reboot**: Reboot a machine
+* **service**: Manage services
+* **user**: Add, remove, and manage user accounts
+
+**MODULOS DE RED**
+
+* **get_url**: Download files over HTTP, HTTPS, or FTP
+* **nmcli**: Manage networking
+* **uri**: Interact with web services
+
